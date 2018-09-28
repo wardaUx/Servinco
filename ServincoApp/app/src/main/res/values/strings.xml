@@ -1,11 +1,3 @@
 <resources>
     <string name="app_name">ServincoApp</string>
-    <string name="app_logo">SERVINCO</string>
-    <string name="create_account">CREATE ACCOUNT</string>
-    <string name="email_edit_text">Email</string>
-    <string name="username_edit_text">Username</string>
-    <string name="password_edit_text">Password</string>
-    <string name="button_text">Continue</string>
-    <string name="sign_in_button">SIGN IN</string>
-    <string name="sign_up_button">SIGN UP</string>
 </resources>
