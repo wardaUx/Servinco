@@ -1,4 +1,4 @@
-package servinco.infosys_sol.com;
+package servinco.infosys_sol.com.commons;
 
 import android.content.Context;
 import android.content.SharedPreferences;

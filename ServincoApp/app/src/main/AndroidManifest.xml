@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.MainActivity">
 
         </activity>
-        <activity android:name=".WelcomActivity">
+        <activity android:name=".activities.WelcomActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,11 +20,11 @@
             </intent-filter>
         </activity>
 <<<<<<< HEAD
-        <activity android:name=".SignInActivity" />
-        <activity android:name=".SplashScreenActivity"></activity>
+        <activity android:name=".activities.SignInActivity" />
+        <activity android:name=".activities.SplashScreenActivity"></activity>
 ||||||| merged common ancestors
 =======
-        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".activities.SignUpActivity"></activity>
 >>>>>>> ebba439ff4f3233ef44e1d50272257801ad49269
     </application>
 

@@ -1,4 +1,4 @@
-package servinco.infosys_sol.com;
+package servinco.infosys_sol.com.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,6 +17,9 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import servinco.infosys_sol.com.commons.PreferenceManager;
+import servinco.infosys_sol.com.R;
 
 public class WelcomActivity extends AppCompatActivity {
 
