@@ -19,7 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".SplashScreenActivity"></activity>
+||||||| merged common ancestors
+=======
         <activity android:name=".SignUpActivity"></activity>
+>>>>>>> ebba439ff4f3233ef44e1d50272257801ad49269
     </application>
 
 </manifest>
