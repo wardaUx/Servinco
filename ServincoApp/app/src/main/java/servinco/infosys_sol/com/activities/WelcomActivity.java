@@ -169,7 +169,7 @@ public class WelcomActivity extends AppCompatActivity {
 
     private void launchHomeScreen() {
         prefManager.setIsFirstTimeLaunch(false);
-        startActivity(new Intent(WelcomActivity.this, MainActivity.class));
+        startActivity(new Intent(WelcomActivity.this, SignUpActivity.class));
         finish();
     }
 
