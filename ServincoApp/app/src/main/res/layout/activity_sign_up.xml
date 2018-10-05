@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SignUpActivity">
+    android:background="@color/screenBgColor"
+    tools:context=".activities.SignUpActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,6 +28,7 @@
                 android:layout_marginLeft="70dp"
                 android:layout_marginRight="5dp"
                 android:layout_weight="1"
+                android:onClick="gotToSignIn"
                 android:background="@drawable/custom_button_design"
                 android:text="@string/sign_in_button"
                 android:textColor="@color/colorTextButton" />
