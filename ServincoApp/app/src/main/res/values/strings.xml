@@ -2,6 +2,10 @@
     <string name="app_name">Servinco</string>
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 25946bf86f3590f0b9d6aa57f2546bab43307892
     <string name="txt_first_head">Track Easily</string>
     <string name="txt_first_subhead">Track your beloved ones easily</string>
 
@@ -19,6 +23,7 @@
     <string name="txt_fifth_subhead">Feel at home even on the
         unknown place</string>
 
+<<<<<<< HEAD
     <string name="txtForgetPassword">Forgot your password?</string>
     <string name="txtEmailInstruction">Enter your email below to receive your password
 reset instructions</string>
@@ -36,6 +41,8 @@ just being extra safe</string>
     <string name="btnResetDone">Done</string>
 
 
+=======
+>>>>>>> 25946bf86f3590f0b9d6aa57f2546bab43307892
     <string name="btn_text_next">NEXT</string>
     <string name="btn_text_skip">SKIP</string>
     <string name="btn_text_start">GOT IT</string>

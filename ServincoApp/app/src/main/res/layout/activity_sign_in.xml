@@ -7,9 +7,16 @@
     android:background="#f7f7fa"
     android:orientation="vertical"
     android:padding="20dp"
+    android:gravity="center"
     android:weightSum="2"
     tools:context=".activities.MainActivity">
 
+=======
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,22 +25,33 @@
         android:gravity="center"
         android:orientation="vertical">
 
-
         <AutoCompleteTextView
+
+        <EditText
+            android:id="@+id/edtTxtUserEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:background="@drawable/custom_rounded_edit_txt"
             android:hint="Email"
+
+
+            android:inputType="textEmailAddress"
+
             android:padding="16dp"
             android:textColorHint="#ced2dc" />
 
-
         <AutoCompleteTextView
+        <EditText
+            android:id="@+id/edtTxtUserPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/custom_rounded_edit_txt"
             android:hint="Password"
+
+
+            android:inputType="textPassword"
+
             android:padding="16dp"
             android:textColorHint="#ced2dc" />
 
@@ -63,5 +81,42 @@
             android:text="CONTINUE"
             android:textColor="#FFFFFF"
             android:textStyle="bold" />
+
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/btn_shape"
+            android:text="SIGNIN"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <!--this is the gap-->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/btn_shape"
+            android:text="CONTINUE"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+        <!--this is the gap ending-->
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:background="@null"
+            android:text="FORGOT PASSWORD"
+            android:textColor="#ced2dc" />
+
+
+
     </LinearLayout>
 </LinearLayout>
