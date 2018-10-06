@@ -2,7 +2,6 @@
     <string name="app_name">Servinco</string>
 
 
-
     <string name="txt_first_head">Track Easily</string>
     <string name="txt_first_subhead">Track your beloved ones easily</string>
 
@@ -25,4 +24,12 @@
     <string name="btn_text_start">GOT IT</string>
     <string name="sign_in_button">Sign in</string>
     <string name="sign_up_button">sign up</string>
+
+    <string name="settings_text">Settings</string>
+    <string name="first_setting_text_Vu">Clean Junk</string>
+    <string name="second_setting_text_Vu">Data Usage Control</string>
+    <string name="third_setting_text_Vu">Power Saving Management</string>
+    <string name="fourth_setting_text_Vu">Security and Privacy</string>
+    <string name="fifth_setting_text_Vu">Harrasement Filter</string>
+    <string name="sixth_setting_text_Vu">App warehouse</string>
 </resources>
