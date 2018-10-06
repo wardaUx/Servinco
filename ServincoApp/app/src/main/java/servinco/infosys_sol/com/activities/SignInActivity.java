@@ -1,5 +1,6 @@
 package servinco.infosys_sol.com.activities;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -20,9 +21,9 @@ import static servinco.infosys_sol.com.commons.Constants.BASE_URL;
 public class SignInActivity extends AppCompatActivity implements View.OnClickListener {
 
     //    the views
-    Button btnSignIn;
-    EditText edtTxtUserEmail, edtTxtUserPassword;
+    Button btnSignIn, btnForgetPassword;
 
+    EditText edtTxtUserEmail, edtTxtUserPassword;
 
 
     String apiEndPoint = "users/signin";
@@ -44,14 +45,14 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
             @Override
             public void onResponse(String response) {
 // FIXME here take the response and see if its the user
-=======
+
                 // FIXME here take the response and see if its the user
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
 // TODO    here handle if user is unable to reach the url
-=======
+
                 // TODO    here handle if user is unable to reach the url
 
 
@@ -61,7 +62,6 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
         RunningQueue(SignInActivity.this, mStringRequest);
 
     }
-=======
 
 
 //this will handle all the view registration processes
@@ -70,8 +70,11 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
         btnSignIn = findViewById(R.id.btnSignIn);
         edtTxtUserEmail = findViewById(R.id.edtTxtUserEmail);
         edtTxtUserPassword = findViewById(R.id.edtTxtUserPassword);
+        btnForgetPassword = findViewById(R.id.btnForgetPassword);
 
         btnSignIn.setOnClickListener(SignInActivity.this);
+        btnForgetPassword.setOnClickListener(SignInActivity.this);
+
 
     }
 
@@ -90,9 +93,16 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
 //                TODO after validation call the api url to check user in DB
                 break;
             }
+            case R.id.btnForgetPassword:{
+                Toast.makeText(this, "Forget Password", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(SignInActivity.this,ForgetPasswordActivity.class));
+                break;
+            }
 
         }
-
     }
+}
+
+
 
 

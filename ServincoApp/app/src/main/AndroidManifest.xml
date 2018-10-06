@@ -13,13 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
         <activity android:name=".activities.MainActivity" />
-=======
-        <activity android:name=".activities.MainActivity">
 
-        </activity>
->>>>>>> 25946bf86f3590f0b9d6aa57f2546bab43307892
+
         <activity android:name=".activities.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,10 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-        <activity android:name=".activities.SignInActivity" />
-        <activity android:name=".activities.WelcomActivity" />
-        <activity android:name=".activities.SignUpActivity" />
         <activity android:name=".activities.ForgetPasswordActivity" />
         <activity android:name=".activities.ResetPasswordActivity"></activity>
 =======
@@ -39,8 +31,6 @@
         <activity android:name=".activities.WelcomActivity"></activity>
 
         <activity android:name=".activities.SignUpActivity"></activity>
-
->>>>>>> 25946bf86f3590f0b9d6aa57f2546bab43307892
     </application>
 
 
