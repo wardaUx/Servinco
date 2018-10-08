@@ -1,11 +1,13 @@
 package servinco.infosys_sol.com.activities;
 
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import servinco.infosys_sol.com.R;
@@ -14,6 +16,7 @@ public class ForgetPasswordActivity extends AppCompatActivity implements View.On
 
     Button btnForgetPassword;
     EditText edtTxtForgetPassword;
+    AnimationDrawable smileyAnimation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +31,10 @@ public class ForgetPasswordActivity extends AppCompatActivity implements View.On
         btnForgetPassword =  findViewById(R.id.btnForgetPassword);
         edtTxtForgetPassword =  findViewById(R.id.edtTxtForgetPassword);
 
+
         btnForgetPassword.setOnClickListener(ForgetPasswordActivity.this);
-
-
-
-    }
+       /* //animationDrawable();*/
+        }
 
     @Override
     public void onClick(View v) {
@@ -43,6 +45,15 @@ public class ForgetPasswordActivity extends AppCompatActivity implements View.On
                 startActivity(new Intent(ForgetPasswordActivity.this,ResetPasswordActivity.class));
                 break;
             }
+
         }
     }
+
+   /* private void animationDrawable(){
+
+        imgSmiley.setBackgroundResource(R.drawable.smiley_animation);
+        smileyAnimation = (AnimationDrawable) imgSmiley.getBackground();
+        smileyAnimation.start();
+
+    }*/
 }
