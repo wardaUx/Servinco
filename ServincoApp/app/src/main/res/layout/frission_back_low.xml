@@ -6,11 +6,11 @@
     android:orientation="vertical">
 
     <com.intrusoft.library.FrissonView
-        android:id="@+id/wave_head"
+        android:id="@+id/frission_view_low"
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        frisson:alphaValue="80"
-        frisson:tintColor="#40abd7"
+        frisson:alphaValue="100"
+        frisson:tintColor="#50B5DF"
         frisson:gradientType="linear"
         frisson:gradient_endColor="#cc77e2df"
         frisson:gradient_startColor="#004CB7E3"

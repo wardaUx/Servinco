@@ -14,7 +14,9 @@
         android:orientation="vertical"
         tools:context=".SettingsActivity">
 
-        <include layout="@layout/frission_background_settings" />
+        <include layout="@layout/frission_back_low" />
+        <include layout="@layout/frission_back_mid" />
+        <include layout="@layout/frission_back_top" />
 
 
         <LinearLayout
@@ -33,7 +35,7 @@
 
 
                 <ImageView
-                    android:id="@+id/imageView"
+                    android:id="@+id/backArrowImageVu"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
@@ -63,7 +65,8 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"></View>
+                    android:layout_height="match_parent">
+                </View>
 
             </LinearLayout>
 
@@ -77,7 +80,7 @@
                 android:weightSum="7">
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/CleanTextVu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -89,7 +92,7 @@
                     android:textSize="@dimen/settings_list_item_size" />
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:id="@+id/DataTextVu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -101,7 +104,7 @@
                     android:textSize="@dimen/settings_list_item_size" />
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/PowerTextVu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -113,7 +116,7 @@
                     android:textSize="@dimen/settings_list_item_size" />
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/SecurityTextVu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -125,7 +128,7 @@
                     android:textSize="@dimen/settings_list_item_size" />
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/FilterTextVu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -137,7 +140,7 @@
                     android:textSize="@dimen/settings_list_item_size" />
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/AppWareTextVu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
