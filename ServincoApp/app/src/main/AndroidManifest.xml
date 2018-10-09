@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="servinco.infosys_sol.com">
 
+
+    <!--here will be the permissions that are not needed programatically-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,5 +27,7 @@
             </intent-filter>
         </activity>
     </application>
+
+
 
 </manifest>
