@@ -79,7 +79,7 @@
             android:visibility="invisible" />
         <!--this is the gap ending-->
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnForgetPassword"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.2"
