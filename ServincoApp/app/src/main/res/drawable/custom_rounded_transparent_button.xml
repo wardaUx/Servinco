@@ -8,13 +8,13 @@
         android:width="1dp"
         android:color="#3bc4f2" />
     <corners
-        android:bottomLeftRadius="15dp"
-        android:bottomRightRadius="15dp"
-        android:topLeftRadius="15dp"
-        android:topRightRadius="15dp" />
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
     <padding
-        android:bottom="22dp"
-        android:top="22dp" />
+        android:bottom="16dp"
+        android:top="16dp" />
 
     <gradient
         android:type="linear"
