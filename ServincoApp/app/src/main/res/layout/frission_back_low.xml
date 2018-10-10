@@ -8,7 +8,7 @@
     <com.intrusoft.library.FrissonView
         android:id="@+id/frission_view_low"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="160dp"
         frisson:alphaValue="100"
         frisson:tintColor="#50B5DF"
         frisson:gradientType="linear"

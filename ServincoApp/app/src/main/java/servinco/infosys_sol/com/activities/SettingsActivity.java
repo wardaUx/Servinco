@@ -45,10 +45,10 @@ public class SettingsActivity extends AppCompatActivity {
     private void AnimationsForFrissions() {
 
         moveFrissHorizon = AnimationUtils.loadAnimation(this,R.anim.move_frission_horizon);
-        frissonViewMid.startAnimation(moveFrissHorizon);
+        frissonViewLow.startAnimation(moveFrissHorizon);
 
         moveFrissVertical = AnimationUtils.loadAnimation(this,R.anim.move_frission_vertical);
-        frissonViewLow.startAnimation(moveFrissVertical);
+        frissonViewMid.startAnimation(moveFrissVertical);
 
     }
 
