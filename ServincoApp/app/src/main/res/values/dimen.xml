@@ -10,4 +10,8 @@
     <dimen name="settings_text_size">26sp</dimen>
     <dimen name="settings_list_item_size">16sp</dimen>
 
+    <dimen name="edt_txt_layout_height">55dp</dimen>
+    <dimen name="card_edt_txt_corners">7dp</dimen>
+    <dimen name="edt_txt_card_elevation">10dp</dimen>
+
 </resources>

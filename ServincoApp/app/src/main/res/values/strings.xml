@@ -32,4 +32,10 @@
     <string name="fourth_setting_text_Vu">Security and Privacy</string>
     <string name="fifth_setting_text_Vu">Harrasement Filter</string>
     <string name="sixth_setting_text_Vu">App warehouse</string>
+
+    <string name="signup_btn_txt">CONTINUE</string>
+    <string name="password_edt_txt_hint">Password</string>
+    <string name="username_edt_txt_hint">Username</string>
+    <string name="email_edt_txt_hint">Email</string>
+
 </resources>
