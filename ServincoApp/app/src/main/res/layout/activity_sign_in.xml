@@ -78,7 +78,7 @@
 
 
                 <EditText
-                    android:id="@+id/editText"
+                    android:id="@+id/edtTxtUserEmail"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/edt_txt_layout_height"
                     android:background="@android:color/transparent"
@@ -100,7 +100,7 @@
                 app:cardElevation="@dimen/edt_txt_card_elevation">
 
                 <EditText
-                    android:id="@+id/editText4"
+                    android:id="@+id/edtTxtUserPassword"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/edt_txt_layout_height"
                     android:background="@android:color/transparent"
