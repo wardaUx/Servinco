@@ -8,7 +8,7 @@
     android:background="@drawable/bg"
     android:orientation="vertical"
     android:fillViewport="true"
-    tools:context=".activities.SignInActivity">
+    tools:context=".activities.">
 
 
     <LinearLayout
@@ -118,6 +118,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical">
+        <!--this is the gap-->
+        <!--this is the gap ending-->
+
 
             <Button
                 android:visibility="invisible"
