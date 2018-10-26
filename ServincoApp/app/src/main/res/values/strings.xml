@@ -43,4 +43,18 @@ just being extra safe</string>
     <string name="btn_text_start">GOT IT</string>
     <string name="sign_in_button">Sign in</string>
     <string name="sign_up_button">sign up</string>
+
+    <string name="settings_text">Settings</string>
+    <string name="first_setting_text_Vu">Clean Junk</string>
+    <string name="second_setting_text_Vu">Data Usage Control</string>
+    <string name="third_setting_text_Vu">Power Saving Management</string>
+    <string name="fourth_setting_text_Vu">Security and Privacy</string>
+    <string name="fifth_setting_text_Vu">Harrasement Filter</string>
+    <string name="sixth_setting_text_Vu">App warehouse</string>
+
+    <string name="signup_btn_txt">CONTINUE</string>
+    <string name="password_edt_txt_hint">Password</string>
+    <string name="username_edt_txt_hint">Username</string>
+    <string name="email_edt_txt_hint">Email</string>
+
 </resources>

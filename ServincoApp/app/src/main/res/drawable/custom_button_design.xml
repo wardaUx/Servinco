@@ -2,18 +2,18 @@
 
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <solid android:color="#359bc7" />
+    <solid android:color="#665EFF" />
 
     <stroke
         android:width="1dp"
-        android:color="#3bc4f2" />
+        android:color="#665EFF" />
     <corners
-        android:bottomLeftRadius="15dp"
-        android:bottomRightRadius="15dp"
-        android:topLeftRadius="15dp"
-        android:topRightRadius="15dp" />
+        android:bottomLeftRadius="8dp"
+        android:bottomRightRadius="8dp"
+        android:topLeftRadius="8dp"
+        android:topRightRadius="8dp" />
     <padding
-        android:bottom="8dp"
-        android:top="8dp" />
+        android:bottom="2dp"
+        android:top="2dp" />
 
 </shape>
