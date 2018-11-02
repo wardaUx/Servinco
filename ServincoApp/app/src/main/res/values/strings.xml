@@ -56,5 +56,6 @@ just being extra safe</string>
     <string name="password_edt_txt_hint">Password</string>
     <string name="username_edt_txt_hint">Username</string>
     <string name="email_edt_txt_hint">Email</string>
+    <string name="forgot_password">FORGOT PASSWORD</string>
 
 </resources>
