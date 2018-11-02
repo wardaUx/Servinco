@@ -133,24 +133,25 @@
                 android:background="@drawable/custom_rounded_transparent_button"
                 android:text="@string/signup_btn_txt"
                 android:textColor="@color/colorTextButton" />
+
             <Button
-                android:id="@+id/btnSignUpContin"
+                android:id="@+id/btnSignInContin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
                 android:background="@drawable/custom_rounded_transparent_button"
                 android:text="@string/signup_btn_txt"
                 android:textColor="@color/colorTextButton" />
 
             <Button
-                android:id="@+id/btnForgotPassword"
+                android:id="@+id/btnSigninForgotPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:background="@null"
-                android:text="FORGOT PASSWORD"
+                android:text="@string/forgot_password"
                 android:textColor="#707070" />
         </LinearLayout>
     </LinearLayout>
