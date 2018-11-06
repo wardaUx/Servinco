@@ -62,7 +62,6 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
 
             case R.id.btnSignUpContin: {
                 userSignUp();
-                startActivity(new Intent(SignUpActivity.this,SignInActivity.class));
                 break;
             } case R.id.btnSignIn :{
                 startActivity(new Intent(SignUpActivity.this,SignInActivity.class));
@@ -97,16 +96,13 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
             public void onResponse(String response) {
                 try {
                     JSONObject jsonObject = new JSONObject(response);
-                    if(jsonObject.getString("status").equals("200")){
+                    if (jsonObject.getString("status").equals("200")){
                         String successMsg = jsonObject.getString("success");
                         Toast.makeText(SignUpActivity.this, successMsg, Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(SignUpActivity.this,SignInActivity.class));
                         finish();
-                        return;
                     }else if(jsonObject.getString("status").equals("404")){
                         Toast.makeText(SignUpActivity.this, "The user already exists", Toast.LENGTH_SHORT).show();
-                    }else{
-                        startActivity(new Intent(SignUpActivity.this,SignInActivity.class));
                     }
 
 

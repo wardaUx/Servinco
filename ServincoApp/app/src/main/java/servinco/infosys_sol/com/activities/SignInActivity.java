@@ -35,7 +35,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
     private static final String URL = "https://servincoapi.herokuapp.com/user/signin";
 
     //    the views
-    Button btnSignIn, btnForgetPassword, btnSignInContin;
+    Button btnSignIn, btnForgetPassword, btnSignInContin,btnSignUp;
 
     EditText edtTxtUserEmail, edtTxtUserPassword;
 
@@ -88,10 +88,12 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
         edtTxtUserPassword = findViewById(R.id.edtTxtUserPassword);
         btnForgetPassword = findViewById(R.id.btnSigninForgotPassword);
         btnSignInContin = findViewById(R.id.btnSignInContin);
+        btnSignUp = findViewById(R.id.btnSignUp);
 
         btnSignIn.setOnClickListener(SignInActivity.this);
         btnForgetPassword.setOnClickListener(SignInActivity.this);
         btnSignInContin.setOnClickListener(SignInActivity.this);
+        btnSignUp.setOnClickListener(SignInActivity.this);
 
 
     }
@@ -119,6 +121,10 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
             case R.id.btnSigninForgotPassword:{
                 Toast.makeText(this, "Forget Password", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(SignInActivity.this,ForgetPasswordActivity.class));
+                break;
+            }
+            case R.id.btnSignUp:{
+                startActivity(new Intent(SignInActivity.this,SignUpActivity.class));
                 break;
             }
 
