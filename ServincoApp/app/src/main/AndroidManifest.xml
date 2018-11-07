@@ -27,9 +27,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.SignInActivity" />
+        <activity android:name=".activities.SignInActivity"
+            android:windowSoftInputMode="stateHidden"/>
         <activity android:name=".activities.WelcomActivity" />
-        <activity android:name=".activities.SignUpActivity"></activity>
+        <activity android:name=".activities.SignUpActivity"
+            android:windowSoftInputMode="stateHidden"></activity>
 
         <activity android:name=".activities.SettingsActivity">
 
