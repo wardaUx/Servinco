@@ -34,8 +34,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         };
 
         splashThread.start();
-
-
+        
 
 
     }
