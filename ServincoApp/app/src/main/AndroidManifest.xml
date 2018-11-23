@@ -13,9 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activities.MainActivity" />
-        <activity android:name=".activities.SplashScreenActivity">
-
-        </activity>
+        <activity android:name=".activities.SplashScreenActivity"></activity>
         <activity
             android:name=".activities.SignInActivity"
             android:windowSoftInputMode="stateHidden" />
@@ -36,6 +34,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activities.ProfileScreenTwo"></activity>
     </application>
 
 </manifest>

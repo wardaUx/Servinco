@@ -39,7 +39,7 @@ public class ProfileScreen extends AppCompatActivity {
         btnFollow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                  startActivity(new Intent(ProfileScreen.this, SignInActivity.class));
+                  startActivity(new Intent(ProfileScreen.this, ProfileScreenTwo.class));
             }
         });
 

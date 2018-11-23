@@ -35,7 +35,7 @@ public class ProfileScreenActivity extends AppCompatActivity {
         btnFollow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              //  startActivity(new Intent(ScrollingActivity.this, ProfileScreen.class));
+                startActivity(new Intent(ProfileScreenActivity.this, ProfileScreenTwo.class));
             }
         });
 
