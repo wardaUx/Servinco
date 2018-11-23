@@ -2,9 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="servinco.infosys_sol.com">
 
-
-    <!--here will be the permissions that are not needed programatically-->
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- here will be the permissions that are not needed programatically -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,38 +12,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".activities.MainActivity"></activity>
-
-
-
-
+        <activity android:name=".activities.MainActivity" />
         <activity android:name=".activities.SplashScreenActivity">
 
+        </activity>
+        <activity
+            android:name=".activities.SignInActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".activities.WelcomActivity" />
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".activities.SettingsActivity" />
+        <activity android:name=".activities.ForgetPasswordActivity" />
+        <activity android:name=".activities.ResetPasswordActivity" />
+        <activity
+            android:name=".activities.ProfileScreen"
+            android:label="@string/title_activity_profile_screen"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.SignInActivity"
-            android:windowSoftInputMode="stateHidden"/>
-        <activity android:name=".activities.WelcomActivity" />
-        <activity android:name=".activities.SignUpActivity"
-            android:windowSoftInputMode="stateHidden"></activity>
-
-        <activity android:name=".activities.SettingsActivity">
-
-        </activity>
-
-        <activity android:name=".activities.ForgetPasswordActivity" />
-        <activity android:name=".activities.ResetPasswordActivity"></activity>
-
-
-
-
     </application>
-
-
 
 </manifest>

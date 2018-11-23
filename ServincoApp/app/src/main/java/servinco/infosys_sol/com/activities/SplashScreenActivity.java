@@ -17,6 +17,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
                 .unsubscribeWhenNotificationsAreDisabled(true)
                 .init();
+
         setContentView(R.layout.activity_splash_screen);
 
         Thread splashThread = new Thread(){
@@ -34,7 +35,6 @@ public class SplashScreenActivity extends AppCompatActivity {
         };
 
         splashThread.start();
-        
 
 
     }
