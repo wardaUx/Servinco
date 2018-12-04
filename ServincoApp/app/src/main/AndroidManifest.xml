@@ -13,11 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activities.MainActivity" />
-        <activity android:name=".activities.SplashScreenActivity"></activity>
+        <activity android:name=".activities.SplashScreenActivity" />
         <activity
             android:name=".activities.SignInActivity"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name=".activities.WelcomActivity" />
+        <activity android:name=".activities.WelcomActivity">
+        </activity>
         <activity
             android:name=".activities.SignUpActivity"
             android:windowSoftInputMode="stateHidden" />
@@ -27,14 +28,15 @@
         <activity
             android:name=".activities.ProfileScreen"
             android:label="@string/title_activity_profile_screen"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".activities.ProfileScreenTwo" />
+        <activity android:name=".activities.FavouriteActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.ProfileScreenTwo"></activity>
     </application>
 
 </manifest>
